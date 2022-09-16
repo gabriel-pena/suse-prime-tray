@@ -44,9 +44,9 @@ def load_gpu_label():
 def load_graphical_interface():
   global exit_mode
   output_graphical = subprocess.check_output('echo $XDG_CURRENT_DESKTOP', shell=True)
-  if(output_graphical.decode("UTF -8").find("GNOME") >= 0):
+  if(output_graphical.decode("UTF-8").find("GNOME") >= 0):
     exit_mode = "gnome-session-quit --logout --no-prompt"
-  elif(output_graphical.decode("UTF -8").find("XFCE") >= 0):
+  elif(output_graphical.decode("UTF-8").find("XFCE") >= 0):
     exit_mode = "xfce4-session-logout --logout"
   else:
     exit_mode = "loginctl terminate-user $USER"
