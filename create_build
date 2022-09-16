@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PACKAGE_VERSION="0.6"
+PACKAGE_VERSION="0.7"
 PACKAGE_NAME="suse-prime-tray"
 FPM="fpm.ruby3.1"
 DEPENDENCIES="python3 python-gtk suse-prime"
