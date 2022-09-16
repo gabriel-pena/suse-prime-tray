@@ -4,7 +4,7 @@
 
 1. Instale as dependências
 
-`sudo zypper install python3 python-gtk wget suse-prime`
+`sudo zypper install python310 python-gtk wget suse-prime`
 
 2. Baixe o RPM e instale
 
