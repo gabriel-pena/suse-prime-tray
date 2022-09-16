@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PACKAGE_VERSION="0.4"
+PACKAGE_VERSION="0.5"
 PACKAGE_NAME="suse-prime-tray"
 FPM="fpm.ruby3.1"
 DEPENDENCIES="python3 python-gtk suse-prime"
@@ -14,6 +14,7 @@ mkdir build/etc
 mkdir build/etc/xdg
 mkdir build/etc/xdg/autostart
 cp main.py build/opt/suse-prime-tray/
+cp LICENSE build/opt/suse-prime-tray/
 cp -r locales build/opt/suse-prime-tray/
 cp build_info/suse-prime-tray.desktop build/etc/xdg/autostart/
 chmod +x build/opt/suse-prime-tray/main.py
