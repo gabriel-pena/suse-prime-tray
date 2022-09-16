@@ -8,7 +8,7 @@
 
 2. Download RPM File and Install it
 
-`wget https://github.com/gabriel-pena/suse-prime-tray/releases/download/0.5/suse-prime-tray-0.5-1.x86_64.rpm && sudo rpm --force -i suse-prime-tray-0.5-1.x86_64.rpm`
+`wget https://github.com/gabriel-pena/suse-prime-tray/releases/download/0.6/suse-prime-tray-0.6-1.x86_64.rpm && sudo rpm --force -i suse-prime-tray-0.6-1.x86_64.rpm`
 
 3. Terminate your session and login it again
 
