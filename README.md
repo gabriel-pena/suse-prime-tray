@@ -1,0 +1,1 @@
+# suse-prime-tray
