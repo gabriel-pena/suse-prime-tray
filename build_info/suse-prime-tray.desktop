@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=0.1
+Type=Application
+Name=Suse Prime Tray
+Exec=/opt/suse-prime-tray/main.py
+Path=/opt/suse-prime-tray
+Actions=
