@@ -48,6 +48,14 @@ def load_graphical_interface():
     exit_mode = "gnome-session-quit --logout --no-prompt"
   elif(output_graphical.decode("UTF-8").find("XFCE") >= 0):
     exit_mode = "xfce4-session-logout --logout"
+  elif(output_graphical.decode("UTF-8").find("MATE") >= 0):
+    exit_mode = "mate-session-save --logout"
+  elif(output_graphical.decode("UTF-8").find("KDE") >= 0):
+    exit_mode = "qdbus org.kde.ksmserver /KSMServer logout 0 0 0"
+  elif(output_graphical.decode("UTF-8").find("Cinnamon") >= 0):
+    exit_mode = "cinnamon-session-quit --logout --no-prompt"
+  elif(output_graphical.decode("UTF-8").find("LXQt") >= 0):
+    exit_mode = "lxqt-leave --logout"
   else:
     exit_mode = "loginctl terminate-user $USER"
     
