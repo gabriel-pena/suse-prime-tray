@@ -4,7 +4,7 @@
 
 1. Install the dependencies
 
-`sudo zypper install python310 python-gtk wget suse-prime libappindicator3-1`
+`sudo zypper install python310 python-gtk wget suse-prime libappindicator3-1 typelib-1_0-AppIndicator3-0_1`
 
 2. Download RPM File and Install it
 
@@ -16,7 +16,7 @@
 
 1. Instale as dependências
 
-`sudo zypper install python310 python-gtk wget suse-prime libappindicator3-1`
+`sudo zypper install python310 python-gtk wget suse-prime libappindicator3-1 typelib-1_0-AppIndicator3-0_1`
 
 2. Baixe o RPM e instale
 
